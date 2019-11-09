@@ -1387,6 +1387,8 @@ static const struct flash_info spi_nor_ids[] = {
 	{ "pn25f32s", INFO(0xe04016, 0, 64 * 1024,  64,
 			SPI_NOR_QUAD_READ), PARAMS(paragon), CLK_MHZ_2X(80) },
 
+	{ "XM25QH128AHIG", INFO(0x207018, 0, 64 * 1024,  256, SECT_4K) },
+
 	{ },
 };
 
